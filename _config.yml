@@ -1,43 +1,19 @@
-title: Kim Gyu Won
-description: A minimal and beautiful Jekyll theme best for writing and note-taking.
-author: Gyuwon Kim
-avatar: /logo.png
+# Site settings
+title: KIM GYU WON
+description: 깃 블로그
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Kim Gyu Won
+user_description: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in world of Giving Circles working with Grapevine, a California based startup trying to improve the world through collaborative giving. I'm the first engineer they hired to work on the platform.
+user_title: Embedded Linux Programmer
 email: exitdoor4@naver.com
+instagram_username: xxpgyu_x
+github_username:  exitdoor4
+# medium_username: lorem_ipsum
+# medium_url: lorem_ipsum.medium.com
+# gplus_username:  lorem_ipsum
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
 
-paginate: 10
-
-# Uncomment the below line and set the tracking ID for enabling Google Analytics
-# 
-# google_analytics: 
-
-# Uncomment the below lines and set the Disqus shortname for enabling Disqus
-# 
-# disqus:
-
-# Jekyll
-# ======
-exclude:
-  - scripts/
-  - README.md
-  - jekyll-theme-hamilton.gemspec
-
-# Jekyll SEO Tag (Optional)
-# =========================
-twitter:
-  username: Gyuwon
-  card: summary
-logo: logo.png
-social:
-  name: Gyuwon Kim
-  links:
-    - https://github.com/exitdoor4
-    - https://blog.naver.com/exitdoor4
-    - https://www.instagram.com/xxpgyu_x/
-google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
-lang: kor
